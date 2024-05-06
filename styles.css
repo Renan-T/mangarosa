@@ -1,0 +1,112 @@
+body {
+    color: #e01d53;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #e01d53;
+    padding: 1rem;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+main {
+    padding: 2rem;
+}
+#portfolio {
+    margin-bottom: 2rem;
+}
+#portfolio h2 {
+    color: #e01d53;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+iframe {
+    width: 540px;
+    height: 315px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+.video {
+    width: 70%;
+    height: 35vw;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+
+#contact {
+    background-color: #e01d53;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#contact h2 {
+    color: #000;
+}
+#contact label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px
+}
+
+footer
+{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+p {
+    color: #e01d53;
+    font-family: Arial, Helvetica, sans-serif;    
+    
+}
+
+.jobs
+{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.jobs p
+{
+    margin: 10px;
+}
+
+.icons
+{
+    justify-content: center;
+    width: 10%;
+    height: auto;
+}
